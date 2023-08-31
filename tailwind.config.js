@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
       backdropBlur: {
         xs: "1px",

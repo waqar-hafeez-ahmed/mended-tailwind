@@ -35,12 +35,12 @@ function NavBar() {
             </Link>
           </li>
           <li className="py-4">
-            <Link className="text-gray-300 hover:text-white" to="/">
+            <Link className="text-gray-300 hover:text-white" to="/team">
               Mended Team
             </Link>
           </li>
           <li className="py-4">
-            <Link className="text-gray-300  hover:text-white" to="/">
+            <Link className="text-gray-300  hover:text-white" to="/member">
               Become a Mender
             </Link>
           </li>
@@ -75,24 +75,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-// import React from "react";
-
-// const NavBar = () => {
-//   return (
-//     <div className="max-w-[1240px] text-white mx-auto flex justify-between items-center h-24">
-// <h1 className="text-3xl font-bold w-full mx-auto">MENDED</h1>
-//       <div className="w-full flex gap-8">
-//         <ul className="flex flex-row flex-wrap gap-8 ">
-// <li className="py-4">Home</li>
-// <li className="py-4">Our Advocates</li>
-// <li className="py-4">Mended Team</li>
-// <li className="py-4">Become a Mender</li>
-//         </ul>
-// <button className="bg-black rounded-xl px-5 py-2">SignUp</button>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default NavBar;

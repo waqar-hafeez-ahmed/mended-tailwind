@@ -8,7 +8,13 @@ const TeamMember = (props) => {
         alt=""
         className="md:w-[125px] w-[75px] mx-auto rounded-2xl md:mb-[-52px] mb-[-37px]"
       />
-      <div className="md:px-6 px-[4px] bg-[#011F19]/50 md:rounded-[30px] rounded-2xl border-[3px] border-white/30 py-5 ">
+      <div
+        className={
+          props.padding
+            ? `md:px-6 px-${props.padding} bg-[#14302f]/80 md:rounded-[30px] rounded-2xl border-[3px] border-white/30 py-5 `
+            : `md:px-6 px-[4px] bg-[#14302f]/80 md:rounded-[30px] rounded-2xl border-[3px] border-white/30 py-5 `
+        }
+      >
         <h3 className=" md:text-xl text-xs -tracking-tight  md:mt-12 mt-8 uppercase">
           {props.title}
         </h3>

@@ -1,47 +1,11 @@
-import {
-  Img1,
-  Img2,
-  Img3,
-  Img4,
-  Img5,
-  Img6,
-  Img7,
-  Img8,
-  Img9,
-  Img10,
-  Img11,
-  Img12,
-  Img13,
-  Img14,
-  Img15,
-  Img16,
-  Img17,
-  Img18,
-  Img19,
-  Img20,
-  Img21,
-  Img22,
-  Img23,
-  Img24,
-  Img25,
-  Img26,
-  Img27,
-  Img28,
-  Img29,
-  Img30,
-  Img31,
-  Img32,
-  Img33,
-  Img34,
-  Img35,
-  Img36,
-  Img37,
-  Img38,
-  Img39,
-  Img40,
-  Img41,
-  Img42,
+import {Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,Img11,Img12,Img13,Img14,Img15,Img16,Img17,Img18,Img19,Img20,Img21,Img22,Img23,Img24,Img25,Img26,Img27,Img28,Img29,Img30,Img31,Img32,Img33,Img34,Img35,Img36,Img37,Img38,Img39,Img40,Img41,Img42,
 } from "../assets/ProfilePictures/OurAdvocate";
+
+import {img2,img3,img4,img5,img6,img7} from "../assets/ProfilePictures/MendedTeam/MendedTeam"
+
+import { YA1, YA2, YA3, YA4, YA5, YA6, YA7, YA8 } from "../assets/ProfilePictures/MendedTeam/OurAdvisors/Advisor"
+
+import { A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12 } from "../assets/ProfilePictures/MendedTeam/OurAdvisors/YouthAdvisors"
 
 export const advocateInfo = [
   {
@@ -190,5 +154,126 @@ export const advocateInfo = [
     name1: "Marvin McKinney",
     name2: "Leslie Alexander",
     school: "MIT",
+  },
+];
+
+export const teamProfile = [
+
+  {
+    Img: img2,
+    title: "D. Elauhn Barron",
+    designation: "Chief operations officer​",
+  },
+  {
+    Img: img3,
+    title: "W. Knox Cleveland",
+    designation: "Chief Creative Officer",
+  },
+  {
+    Img: img4,
+    title: "R. JORDAN PEREZ",
+    designation: "CEO & Founder",
+  },
+  {
+    Img: img5,
+    title: "D. Elauhn Barron",
+    designation: "Chief operations officer​",
+  },
+  {
+    Img: img6,
+    title: "W. Knox Cleveland",
+    designation: "Chief Creative Officer",
+  },
+  {
+    Img: img7,
+    title: "R. JORDAN PEREZ",
+    designation: "CEO & Founder",
+  },
+ 
+];
+
+export const youthAdvisor = [
+  {
+    Img: YA1,
+    name: "ASHLEY Fox",
+  },
+  {
+    Img: YA2,
+    name: "SIARA Lane",
+  },
+  {
+    Img: YA3,
+    name: "Jacob Jones",
+  },
+  {
+    Img: YA4,
+    name: "Esther Howard",
+  },
+  {
+    Img: YA5,
+    name: "Arlene McCoy",
+  },
+  {
+    Img: YA6,
+    name: "JOE Henry",
+  },
+  {
+    Img: YA7,
+    name: "Arlene McCoy",
+  },
+  {
+    Img: YA8,
+    name: "JOE Henry",
+  },
+];
+
+export const advisors = [
+  {
+    Img: A1,
+    name: "RUTH Steward",
+  },
+  {
+    Img: A2,
+    name: "Esther Howard",
+  },
+  {
+    Img: A3,
+    name: "MAIA Fisher",
+  },
+  {
+    Img: A4,
+    name: "TRAVIS McCoy",
+  },
+  {
+    Img: A5,
+    name: "JULIA Bell",
+  },
+  {
+    Img: A6,
+    name: "Darlene Robertson",
+  },
+  {
+    Img: A7,
+    name: "MAR McKinney",
+  },
+  {
+    Img: A8,
+    name: "Courtney Henry",
+  },
+  {
+    Img: A9,
+    name: "Courtney Henry",
+  },
+  {
+    Img: A10,
+    name: "SHIRLEY Flores",
+  },
+  {
+    Img: A11,
+    name: "THOMAS Alexander",
+  },
+  {
+    Img: A12,
+    name: "JOE Henry",
   },
 ];
