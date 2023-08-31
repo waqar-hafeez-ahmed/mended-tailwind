@@ -11,21 +11,14 @@ const HeroSection = () => {
         <img src={YellowLine} alt="" />
         <img src={Ellipse} alt="" className="absolute  top-0 left-0" />
       </div>
-      {/* <img
-        src={Ellipse2}
-        alt=""
-        className="absolute mt-[300px]  md:hidden block"
-      /> */}
 
       <div className=" md:hidden block">
         <h2 className="text-center font-bold text-3xl text-white z-10 font-Outfit">
           Advocate
         </h2>
-        <img
-          src={Img1}
-          alt=""
-          className="w-[130%] mt-[-65px] ml-[-30px] z-10"
-        />
+        <div className=" mt-[-65px] ml-[-30px] z-10">
+          <img src={Img1} alt="" width={700} />
+        </div>
       </div>
       <div className="flex flex-col md:max-w-[700px] md:text-left text-center md:ml-[200px] md:mt-0 ">
         <img src={Text1} alt="" className="md:px-0 px-4" />
