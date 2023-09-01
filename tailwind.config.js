@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         "nav-overlay": "url('/src/assets/rectangle-top.png')",
+        "adv-bg": "url('/src/assets/GreenDripingPaint.png')",
       },
     },
   },

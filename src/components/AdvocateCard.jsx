@@ -29,7 +29,7 @@ const AdvocateCard = ({ ImgL, ImgR, nameL, nameR, college }) => {
           </h3>
         </div>
       </div>
-      <div className="md:px-6 px-[4px] bg-[#a1c0ba]/20 md:rounded-[30px] rounded-2xl border-[2px] border-white/30 py-5 ">
+      <div className="md:px-6 px-[4px] bg-[#193535]/80 md:rounded-[30px] rounded-2xl border-2 border-white/30 py-5 ">
         <div className="mt-20 max-sm:mt-10 max-sm:-mb-3 px-4 text-center">
           <p className="text-[#8CDBDA]  font-Outfit font-medium text-2xl max-sm:text-xs ">
             {college}

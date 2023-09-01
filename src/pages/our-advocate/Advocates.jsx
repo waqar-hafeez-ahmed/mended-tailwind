@@ -5,8 +5,8 @@ import wall from "../../assets/Advocates/LoveWall.png";
 
 const Advocates = () => {
   return (
-    <section className="max-w-screen-xl mx-auto my-7 flex items-center flex-col">
-      <div className="grid sm:grid-cols-3 grid-cols-2 gap-4 max-sm:gap-2 max-sm:px-2 ">
+    <section className="mx-auto my-7 flex items-center flex-col bg-adv-bg bg-no-repeat">
+      <div className=" max-w-screen-xl grid sm:grid-cols-3 grid-cols-2 gap-4 max-sm:gap-2 max-sm:px-2  ">
         {advocateInfo.map((info) => (
           <div>
             <AdvocateCard

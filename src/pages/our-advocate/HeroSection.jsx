@@ -7,7 +7,7 @@ import Ellipse2 from "../../assets/Advocates/Ellipse2.png";
 const HeroSection = () => {
   return (
     <div className="flex md:flex-row flex-col justify-between py-2 w-full items-center mx-auto md:mt-[-160px]">
-      <div className="absolute top-0 left-0 md:block hidden">
+      <div className="absolute top-0 left-0 md:block hidden -z-10">
         <img src={YellowLine} alt="" />
         <img src={Ellipse} alt="" className="absolute  top-0 left-0" />
       </div>
